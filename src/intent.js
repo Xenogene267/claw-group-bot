@@ -11,7 +11,8 @@ const INTENT = {
   ADMIN: { action: 'admin', type: 'admin' },
   IGNORE: { action: 'ignore', type: 'ignore' },
 };
-// 所有回复统一用 Claude Opus，不做模型分级
+// 意图识别用 Claude 3.5 Haiku（便宜快速）
+// 正式回复统一用 Claude Opus
 
 const TECH_KEYWORDS = [
   'agent', 'llm', 'rag', 'mcp', 'prompt', 'embedding', 'fine-tune',
@@ -54,10 +55,11 @@ async function classifyIntent(msg) {
 }
 
 async function haikuJudge(msg) {
-  // TODO: 调用 Claude 3.5 Haiku 判断是否需要虾哥回复
+  // 调用 Claude 3.5 Haiku 判断是否需要虾哥回复
   // 输入：最近5条消息 + 当前消息
   // 输出：reply / ignore
   // 成本：~$0.001/次
+  // TODO: 实现 Haiku API 调用
   return INTENT.IGNORE;
 }
 

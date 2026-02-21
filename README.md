@@ -59,7 +59,7 @@ npm start
 
 - **运行时**: Node.js
 - **微信接入**: @canghe/openclaw-wechat
-- **LLM**: Claude Opus（统一模型，所有回复）
+- **LLM**: Claude 3.5 Haiku（意图识别）+ Claude Opus（正式回复）
 - **文档**: 飞书开放平台 API
 - **部署**: RackNerd VPS（洛杉矶）
 

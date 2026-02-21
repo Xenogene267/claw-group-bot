@@ -65,7 +65,8 @@ class LobsterBot {
   }
 
   async generateReply(msg, intent) {
-    // 统一用 Claude Opus，不做模型分级
+    // 意图识别用 Haiku（在 intent.js 里完成）
+    // 正式回复统一用 Claude Opus
     // TODO: 调用 Opus 生成回复
     // 如果 intent.action === 'reply_doc'，同时生成飞书文档
     return null;
