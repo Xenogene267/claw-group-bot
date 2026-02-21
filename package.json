@@ -1,0 +1,12 @@
+{
+  "name": "lobster-bot",
+  "version": "0.1.0",
+  "description": "🦞哥眼不聋 - 微信群 AI Bot",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js"
+  },
+  "keywords": ["ai", "bot", "wechat", "lobster"],
+  "license": "MIT"
+}

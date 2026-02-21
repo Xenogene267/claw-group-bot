@@ -1,0 +1,25 @@
+{
+  "frequency": {
+    "maxActivePerHour": 3,
+    "maxConsecutive": 2,
+    "cooldownAfterSilenceRequest": 1800000,
+    "nightMode": { "start": 23, "end": 8 }
+  },
+  "length": {
+    "chat": 50,
+    "techSimple": 200,
+    "techDeep": "feishu_doc",
+    "welcome": 100,
+    "dailyNews": 300
+  },
+  "monitor": {
+    "windowMs": 300000,
+    "scanIntervalMs": 30000
+  },
+  "silence": {
+    "targetRate": 0.8
+  },
+  "admin": {
+    "userId": ""
+  }
+}
