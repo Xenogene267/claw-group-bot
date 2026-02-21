@@ -3,14 +3,15 @@
  */
 
 const INTENT = {
-  CHAT: { action: 'reply', level: 'haiku', type: 'chat' },
-  TECH_SIMPLE: { action: 'reply', level: 'sonnet', type: 'tech_simple' },
-  TECH_DEEP: { action: 'reply', level: 'opus', type: 'tech_deep' },
-  MEME: { action: 'reply', level: 'haiku', type: 'meme' },
-  WELCOME: { action: 'reply', level: 'haiku', type: 'welcome' },
-  ADMIN: { action: 'admin', level: 'none', type: 'admin' },
-  IGNORE: { action: 'ignore', level: 'none', type: 'ignore' },
+  CHAT: { action: 'reply', type: 'chat' },
+  TECH_SIMPLE: { action: 'reply', type: 'tech_simple' },
+  TECH_DEEP: { action: 'reply_doc', type: 'tech_deep' },
+  MEME: { action: 'reply', type: 'meme' },
+  WELCOME: { action: 'reply', type: 'welcome' },
+  ADMIN: { action: 'admin', type: 'admin' },
+  IGNORE: { action: 'ignore', type: 'ignore' },
 };
+// 所有回复统一用 Claude Opus，不做模型分级
 
 const TECH_KEYWORDS = [
   'agent', 'llm', 'rag', 'mcp', 'prompt', 'embedding', 'fine-tune',

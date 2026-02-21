@@ -65,8 +65,9 @@ class LobsterBot {
   }
 
   async generateReply(msg, intent) {
-    // TODO: 根据 intent.level 选择模型
-    // haiku: 闲聊 | sonnet: 技术问答 | opus: 深度分析
+    // 统一用 Claude Opus，不做模型分级
+    // TODO: 调用 Opus 生成回复
+    // 如果 intent.action === 'reply_doc'，同时生成飞书文档
     return null;
   }
 }
