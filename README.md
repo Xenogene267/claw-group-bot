@@ -61,7 +61,7 @@ npm start
 - **微信接入**: @canghe/openclaw-wechat
 - **LLM**: Claude 3.5 Haiku（意图识别）+ Claude Opus（正式回复）
 - **文档**: 飞书开放平台 API
-- **部署**: RackNerd VPS（洛杉矶）
+- **部署**: RackNerd VPS（纽约）
 
 ## PRD
 
