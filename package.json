@@ -1,5 +1,5 @@
 {
-  "name": "lobster-bot",
+  "name": "claw-group-bot",
   "version": "0.1.0",
   "description": "🦞哥眼不聋 - 微信群 AI Bot",
   "main": "src/bot.js",

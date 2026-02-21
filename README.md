@@ -15,7 +15,7 @@
 ## 项目结构
 
 ```
-lobster-bot/
+claw-group-bot/
 ├── src/                # 核心代码
 │   ├── bot.js          # Bot 主入口
 │   ├── intent.js       # 意图识别（规则+Haiku）
@@ -41,8 +41,8 @@ lobster-bot/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/ASaulXenogene267/lobster-bot.git
-cd lobster-bot
+git clone https://github.com/ASaulXenogene267/claw-group-bot.git
+cd claw-group-bot
 
 # 安装依赖
 npm install
